@@ -1,0 +1,26 @@
+{
+  "name": "squalomail/sqm-mc-api-lib",
+  "type": "library",
+  "version": "3.0.0",
+  "description": "client library for the SqualoMail MC API",
+  "keywords": ["email", "mc", "api","squalomail"],
+  "homepage": "https://github.com/squalomail/sqm-mc-api-lib",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "SqualoMail",
+      "email": "info@squalomail.com",
+      "homepage": "https://www.squalomail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.2.0",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "SqualoMailMc": "src/"
+    }
+  }
+}
