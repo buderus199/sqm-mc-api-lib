@@ -16,7 +16,7 @@ class SqualoMailMc_EcommerceCustomers extends SqualoMailMc_Abstract
      * @param $storeId          The store id.
      * @param $id               A unique identifier for the customer.
      * @param $emailAddress     The customer’s email address.
-     * @param $optInStatus      The customer’s opt-in status. This value will never overwrite the opt-in status of a pre-existing MailChimp list member,
+     * @param $optInStatus      The customer’s opt-in status. This value will never overwrite the opt-in status of a pre-existing SqualoMail list member,
      *                          but will apply to list members that are added through the e-commerce API endpoints.
      * @param null $company     The customer’s company.
      * @param null $firstName   The customer’s first name.
@@ -97,7 +97,7 @@ class SqualoMailMc_EcommerceCustomers extends SqualoMailMc_Abstract
     /**
      * @param $storeId          The store id.
      * @param $customerId       A unique identifier for the customer.
-     * @param $optInStatus      The customer’s opt-in status. This value will never overwrite the opt-in status of a pre-existing MailChimp list member,
+     * @param $optInStatus      The customer’s opt-in status. This value will never overwrite the opt-in status of a pre-existing SqualoMail list member,
      *                          but will apply to list members that are added through the e-commerce API endpoints.
      * @param null $company     The customer’s company.
      * @param null $firstName   The customer’s first name.
@@ -127,7 +127,7 @@ class SqualoMailMc_EcommerceCustomers extends SqualoMailMc_Abstract
      * @param $storeId          The store id.
      * @param $customerId       A unique identifier for the customer.
      * @param $emailAddress     The customer’s email address.
-     * @param $optInStatus      The customer’s opt-in status. This value will never overwrite the opt-in status of a pre-existing MailChimp list member,
+     * @param $optInStatus      The customer’s opt-in status. This value will never overwrite the opt-in status of a pre-existing SqualoMail list member,
      *                          but will apply to list members that are added through the e-commerce API endpoints.
      * @param null $company     The customer’s company.
      * @param null $firstName   The customer’s first name.

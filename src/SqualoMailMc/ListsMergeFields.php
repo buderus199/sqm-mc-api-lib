@@ -53,7 +53,7 @@ class SqualoMailMc_ListsMergeFields extends SqualoMailMc_Abstract
 
     /**
      * @param $listId               The unique id for the list.
-     * @param null $tag             The tag used in MailChimp campaigns and for the /members endpoint.
+     * @param null $tag             The tag used in SqualoMail campaigns and for the /members endpoint.
      * @param $name                 The name of the merge field.
      * @param $type                 The type for the merge field.
      * @param null $required        The boolean value if the merge field is required.
@@ -83,7 +83,7 @@ class SqualoMailMc_ListsMergeFields extends SqualoMailMc_Abstract
     /**
      * @param $listId               The unique id for the list.
      * @param $mergeId              The id for the merge field.
-     * @param null $tag             The tag used in MailChimp campaigns and for the /members endpoint.
+     * @param null $tag             The tag used in SqualoMail campaigns and for the /members endpoint.
      * @param null $name            The name of the merge field.
      * @param null $type            The type for the merge field.
      * @param null $required        The boolean value if the merge field is required.

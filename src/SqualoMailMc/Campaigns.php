@@ -26,7 +26,7 @@ class SqualoMailMc_Campaigns extends SqualoMailMc_Abstract
     public $sendChecklist;
 
     /**
-     * @param string $type              There are four types of campaigns you can create in MailChimp. A/B Split campaigns have been deprecated and variate campaigns should be used instead.
+     * @param string $type              There are four types of campaigns you can create in SqualoMail. A/B Split campaigns have been deprecated and variate campaigns should be used instead.
      *                                  Possible Values:
      *                                  regular | plaintext| absplit | rss | variate
      * @param null $recipients          List settings for the campaign.
@@ -112,7 +112,7 @@ class SqualoMailMc_Campaigns extends SqualoMailMc_Abstract
 
     /**
      * @param string $campaignId        The unique id for the campaign.
-     * @param string $type              There are four types of campaigns you can create in MailChimp. A/B Split campaigns have been deprecated and variate campaigns should be used instead.
+     * @param string $type              There are four types of campaigns you can create in SqualoMail. A/B Split campaigns have been deprecated and variate campaigns should be used instead.
      *                                  Possible Values:
      *                                  regular | plaintext| absplit | rss | variate
      * @param null $recipients          List settings for the campaign.

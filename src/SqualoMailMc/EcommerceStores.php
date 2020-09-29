@@ -14,7 +14,7 @@ class SqualoMailMc_EcommerceStore  extends SqualoMailMc_Abstract
 {
     /**
      * @param $id              The unique identifier for the store
-     * @param $listId          The unique identifier for the MailChimp List associated with the store. The list_id for a specific store cannot change.
+     * @param $listId          The unique identifier for the SqualoMail List associated with the store. The list_id for a specific store cannot change.
      * @param $name            The name of the store.
      * @param $platform        The e-commerce platform of the store.
      * @param $domain          The store domain.

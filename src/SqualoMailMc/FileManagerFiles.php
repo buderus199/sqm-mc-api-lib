@@ -36,7 +36,7 @@ class SqualoMailMc_FileManagerFiles extends SqualoMailMc_Abstract
      * @param null $offset              The number of records from a collection to skip. Iterating over large collections
      *                                  with this parameter can be slow.
      * @param null $type                The file type for the File Manager file.
-     * @param null $createdBy           The MailChimp account user who created the File Manager file.
+     * @param null $createdBy           The SqualoMail account user who created the File Manager file.
      * @param null $beforeCreatedAt     Restrict the response to files created before the set date.
      * @param null $sinceCreatedAt      Restrict the response to files created after the set date.
      * @param null $sortField           Returns files sorted by the specified field.

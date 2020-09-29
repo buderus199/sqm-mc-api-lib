@@ -74,7 +74,7 @@ class SqualoMailMc_ListsMembers extends SqualoMailMc_Abstract
      * @param null $beforeTimestampOpt  Restrict results to subscribers who opted-in before the set timeframe.
      * @param null $sinceLastChanged    Restrict results to subscribers whose information changed after the set timeframe.
      * @param null $beforeLastChanged   Restrict results to subscribers whose information changed before the set timeframe.
-     * @param null $uniqueEmailId       A unique identifier for the email address across all MailChimp lists. This parameter can be found in any links with
+     * @param null $uniqueEmailId       A unique identifier for the email address across all SqualoMail lists. This parameter can be found in any links with
      *                                  Ecommerce 360 tracking enabled.
      * @return mixed
      * @throws SqualoMailMc_Error
