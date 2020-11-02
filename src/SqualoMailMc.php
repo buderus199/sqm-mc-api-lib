@@ -73,7 +73,7 @@ class SqualoMailMc
 {
     protected $_apiKey;
     protected $_ch = null;
-    protected $_root    = 'https://api.squalomail.com/mc/3.0';
+    protected $_root    = 'https://api.squalomail.com/mc/v3';
     protected $_debug   = false;
 
     const POST      = 'POST';
