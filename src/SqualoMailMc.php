@@ -33,6 +33,7 @@ require_once 'SqualoMailMc/EcommerceCarts.php';
 require_once 'SqualoMailMc/EcommerceCustomers.php';
 require_once 'SqualoMailMc/EcommerceOrders.php';
 require_once 'SqualoMailMc/EcommerceOrdersLines.php';
+require_once 'SqualoMailMc/EcommerceProductCategories.php';
 require_once 'SqualoMailMc/EcommerceProducts.php';
 require_once 'SqualoMailMc/EcommerceProductsVariants.php';
 require_once 'SqualoMailMc/EcommercePromoRules.php';
