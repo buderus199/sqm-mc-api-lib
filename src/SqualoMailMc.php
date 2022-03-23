@@ -125,6 +125,7 @@ class SqualoMailMc
         $this->ecommerce->customers                         = new SqualoMailMc_EcommerceCustomers($this);
         $this->ecommerce->orders                            = new SqualoMailMc_EcommerceOrders($this);
         $this->ecommerce->orders->lines                     = new SqualoMailMc_EcommerceOrdersLines($this);
+        $this->ecommerce->productCategories                 = new SqualoMailMc_EcommerceProductCategories($this);
         $this->ecommerce->products                          = new SqualoMailMc_EcommerceProducts($this);
         $this->ecommerce->products->variants                = new SqualoMailMc_EcommerceProductsVariants($this);
         $this->ecommerce->promoRules                        = new SqualoMailMc_EcommercePromoRules($this);
