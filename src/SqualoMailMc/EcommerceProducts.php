@@ -36,7 +36,7 @@ class SqualoMailMc_EcommerceProducts extends SqualoMailMc_Abstract
      * @throws SqualoMailMc_HttpError
      */
     public function add($storeId,$id,$title,$handle=null,$url=null,$description=null,$type=null,$vendor=null,
-                        $imageUrl=null,$variants,$publishedAtForeign=null)
+                        $imageUrl=null,$variants=null,$publishedAtForeign=null)
     {
         $_params=array('id'=>$id,'title'=>$title,'variants'=>$variants);
         if($handle) $_params['handle'] = $handle;

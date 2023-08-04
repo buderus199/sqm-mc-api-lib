@@ -22,7 +22,7 @@ class SqualoMailMc_ConversationsMessages extends SqualoMailMc_Abstract
      * @throws SqualoMailMc_Error
      * @throws SqualoMailMc_HttpError
      */
-    public function add($conversationId,$fromEmail,$subject=null,$message=null,$read)
+    public function add($conversationId,$fromEmail,$subject=null,$message=null,$read=null)
     {
         $_params = array('from_email'=>$fromEmail,'read'=>$read);
         if($subject) $_params['subjects'] = $subject;

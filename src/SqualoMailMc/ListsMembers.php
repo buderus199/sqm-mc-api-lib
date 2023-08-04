@@ -159,8 +159,8 @@ class SqualoMailMc_ListsMembers extends SqualoMailMc_Abstract
      * @throws SqualoMailMc_Error
      * @throws SqualoMailMc_HttpError
      */
-    public function addOrUpdate($listId,$subscriberHash,$emailType=null,$status, $mergeFields=null,$interests=null,$language=null,$vip=null,$location=null,
-                                $emailAddress,$statusIfNew=null)
+    public function addOrUpdate($listId,$subscriberHash,$emailType=null,$status=null, $mergeFields=null,$interests=null,$language=null,$vip=null,$location=null,
+                                $emailAddress=null,$statusIfNew=null)
     {
         $_params = array('status'=>$status,'email_address'=>$emailAddress);
         if($emailType) $_params['email_type'] = $emailType;
