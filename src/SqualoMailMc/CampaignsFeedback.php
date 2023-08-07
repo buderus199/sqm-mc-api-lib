@@ -21,7 +21,7 @@ class SqualoMailMc_CampaignsFeedback extends SqualoMailMc_Abstract
      * @throws SqualoMailMc_Error
      * @throws SqualoMailMc_HttpError
      */
-    public function add($campaignId,$blockId=null,$message,$isComplete=null)
+    public function add($campaignId,$blockId=null,$message=null,$isComplete=null)
     {
         $_params=array('message'=>$message);
         if($blockId) $_params['block_id'] = $blockId;
@@ -72,7 +72,7 @@ class SqualoMailMc_CampaignsFeedback extends SqualoMailMc_Abstract
      * @throws SqualoMailMc_Error
      * @throws SqualoMailMc_HttpError
      */
-    public function modify($campaignId,$feedbackId,$blockId=null,$message,$isComplete)
+    public function modify($campaignId,$feedbackId,$blockId=null,$message=null,$isComplete=null)
     {
         $_params=array('message'=>$message);
         if($blockId) $_params['block_id'] = $blockId;

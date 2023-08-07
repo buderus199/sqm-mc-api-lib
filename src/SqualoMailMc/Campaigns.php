@@ -41,7 +41,7 @@ class SqualoMailMc_Campaigns extends SqualoMailMc_Abstract
      * @throws SqualoMailMc_Error
      * @throws SqualoMailMc_HttpError
      */
-    public function add($type,$recipients=null,$settings,$variateSettings=null,$tracking=null,$rssOpts=null,$socialCard=null,
+    public function add($type,$recipients=null,$settings=null,$variateSettings=null,$tracking=null,$rssOpts=null,$socialCard=null,
                             $reportSummary=null,$deliveryStatus=null)
     {
         $_params = array('type'=>$type,'settings'=>$settings);
@@ -127,7 +127,7 @@ class SqualoMailMc_Campaigns extends SqualoMailMc_Abstract
      * @throws SqualoMailMc_Error
      * @throws SqualoMailMc_HttpError
      */
-    public function modify($campaignId,$type,$recipients=null,$settings,$variateSettings=null,$tracking=null,$rssOpts=null,$socialCard=null,
+    public function modify($campaignId,$type,$recipients=null,$settings=null,$variateSettings=null,$tracking=null,$rssOpts=null,$socialCard=null,
                            $reportSummary=null,$deliveryStatus=null)
     {
         $_params = array('type'=>$type,'settings'=>$settings);

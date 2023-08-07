@@ -27,7 +27,7 @@ class SqualoMailMc_EcommerceCarts extends SqualoMailMc_Abstract
      * @throws SqualoMailMc_Error
      * @throws SqualoMailMc_HttpError
      */
-    public function add($storeId,$id,$customer,$campaignId=null,$checkoutUrl=null,$currencyCode,$orderTotal,$taxTotal=null,$lines)
+    public function add($storeId,$id,$customer,$campaignId=null,$checkoutUrl=null,$currencyCode=null,$orderTotal=null,$taxTotal=null,$lines=null)
     {
         $_params = array('id'=>$id,'customer'=>$customer,'currency_code'=>$currencyCode,'order_total'=>$orderTotal,'lines'=>$lines);
         if($campaignId) $_params['campaign_id'] = $campaignId;

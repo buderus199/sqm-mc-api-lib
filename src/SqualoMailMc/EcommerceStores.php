@@ -86,7 +86,7 @@ class SqualoMailMc_EcommerceStore  extends SqualoMailMc_Abstract
      * @throws SqualoMailMc_Error
      * @throws SqualoMailMc_HttpError
      */
-    public function edit($storeId,$platform = null, $domain = null, $name = null ,$emailAddress = null,$currencyCode, $moneyFormat = null,
+    public function edit($storeId,$platform = null, $domain = null, $name = null ,$emailAddress = null,$currencyCode=null, $moneyFormat = null,
                          $primaryLocale=null, $timezone = null,$phone=null,$address=null, $is_sync=null)
     {
         $_params=array();

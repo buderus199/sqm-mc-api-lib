@@ -66,7 +66,7 @@ class SqualoMailMc_ListsMergeFields extends SqualoMailMc_Abstract
      * @throws SqualoMailMc_Error
      * @throws SqualoMailMc_HttpError
      */
-    public function add($listId,$tag=null,$name,$type,$required=null,$defaulValue=null,$public=null,$displayOrder,
+    public function add($listId,$tag=null,$name=null,$type=null,$required=null,$defaulValue=null,$public=null,$displayOrder=null,
                         $options=null,$helpText=null)
     {
         $_params = array('name'=>$name,'type'=>$type);
@@ -97,7 +97,7 @@ class SqualoMailMc_ListsMergeFields extends SqualoMailMc_Abstract
      * @throws SqualoMailMc_HttpError
      */
     public function modify($listId,$mergeId,$tag=null,$name=null,$type=null,$required=null,$defaulValue=null,$public=null,
-                           $displayOrder,$options=null,$helpText=null)
+                           $displayOrder=null,$options=null,$helpText=null)
     {
         $_params = array();
         if($name) $_params['name'] = $name;
