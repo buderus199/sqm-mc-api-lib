@@ -1,7 +1,7 @@
 {
   "name": "squalomail/sqm-mc-api-lib",
   "type": "library",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "client library for the SqualoMail MC API",
   "keywords": ["email", "mc", "api","squalomail"],
   "homepage": "https://github.com/squalomail/sqm-mc-api-lib",
