@@ -29,6 +29,10 @@ class SqualoMailMc_Ecommerce extends SqualoMailMc_Abstract
      */
     public $orders;
     /**
+     * @var SqualoMailMc_EcommerceProductCategories
+     */
+    public $productCategories;
+    /**
      * @var SqualoMailMc_EcommerceProducts
      */
     public $products;
